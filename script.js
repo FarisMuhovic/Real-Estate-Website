@@ -1,5 +1,5 @@
 // hamburger menu
-const hamburgerBtn = document.getElementById("hamburger-btn");
+const hamburgerBtn = document.getElementById("hamburger");
 const navbar = document.getElementById("navbar");
 const houseNavigation = document.getElementById("house-nav");
 const userNavigation = document.getElementById("user-nav");
@@ -31,7 +31,6 @@ const arrayOfImages = [
   "https://sarajevotimes.com/wp-content/uploads/2020/08/prefabricated-house.jpg",
   "https://cdn.vox-cdn.com/thumbor/FrnLQTpuAoAmp0GZRZctSSdkC04=/0x0:3000x2000/1200x0/filters:focal(0x0:3000x2000):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/21905363/iStock_185930591.jpg",
 ];
-
 let counter = 0;
 setInterval(() => {
   if (counter < arrayOfImages.length - 1) {

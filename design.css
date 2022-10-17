@@ -28,6 +28,7 @@ ul {
 }
 body {
   background-color: #F9F9FB;
+  overflow-x: hidden;
 }
 /* NAVIGATION BAR */
 .navigation-bar {
